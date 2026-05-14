@@ -1,18 +1,19 @@
 """
+Ask the user enter the two number and do the addition of the two numbers
+
 Logic:
-1.I will ask the user to enter the no
-2. 2 no will be assigned to the varialbe 
-3. 1 var= v1+ v2
-4. print new assigned variable
+1. I will ask the user to enter the number
+2. Two number will be assigned to the variable
+3. var = v1 + v2
+4. print new assigned variable i.e var
 
 Execution:
 1.input() : will take user input as string and return it back to caller function(main) as a string value
 2.Assign two variables with input()
-variable1 = int(input()): here we are converting the user input into integer number int()) so that we
-3.Assign variable : ans :variable1 + variable 2
+variable1 = int(input()); here we are converting the user input into integer number int()) so that we
+3.Assign variable; ans = variable1 + variable 2
 4.Print output"""
-""" 
-"""
+
 a = int(input("Enter the first number : "))
 b = int(input("Enter the first number : "))
 ans = a+b
@@ -27,18 +28,18 @@ print(type(Name))
 
 '''
 Note: 
-Python is Case sensitive
-()--> function --- in-built function
-assignment with UNDERSCORE ( _ ) is valid variable 
-dash (-) invalid
+1.Python is Case sensitive
+2.()--> function --- in-built function
+3.assignment with UNDERSCORE ( _ ) is valid variable 
+4.dash (-) invalid
 
-Variable should always Start with alphabet
+- Variable should always Start with alphabet
 
-STRING must always be in quotes
+- STRING must always be in quotes
 
-Multiple assignment of variable with differnt datatypes
+- Multiple assignment of variable with differnt datatypes
 
-Boolean is always in camel casing 
+- Boolean is always in camel casing 
 it will not accept in all small and all caps
 '''
 # Data types of Python Programming
